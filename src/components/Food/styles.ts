@@ -1,5 +1,7 @@
 import styled, { css } from "styled-components";
-import { ContainerProps } from "../../types";
+interface ContainerProps {
+  available: boolean;
+}
 
 export const Container = styled.div<ContainerProps>`
   background: #f0f0f5;

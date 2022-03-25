@@ -13,7 +13,6 @@ export interface FoodProps {
   handleDelete: (id: number) => void;
   handleEditFood: (food: FoodTypes) => void;
 }
-
-export interface ContainerProps {
-  available: boolean;
+export interface HeaderProps {
+  openModal: () => void;
 }
