@@ -1,7 +1,11 @@
-import styled from 'styled-components';
-import { Form as Unform } from '@unform/web';
+import styled from "styled-components";
+import { Form as Unform } from "@unform/web";
 
-export const Form = styled(Unform)`
+interface StyleModalAddFoodPropos {
+  ref: any;
+}
+
+export const Form = styled(Unform)<StyleModalAddFoodPropos>`
   padding: 48px 40px;
   display: flex;
   flex-direction: column;
